@@ -15,5 +15,5 @@
     dest: /etc/hosts
     regexp: "^{{ item.host_ip }}"
     line: "{{ item.host_ip }} {{ item.host_name }}"
-  with_items: "{{ hosts }}"
+  with_items: "{{ host_vars }}"
   tags: [common]

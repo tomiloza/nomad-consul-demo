@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   end
   (0..2).each do |i|
       config.vm.define "serv-0#{i}" do |d|
-        d.vm.box = "debian/jessie64"
+        d.vm.box = "ubuntu/trusty64"
         d.vm.hostname = "serv-0#{i}"
         d.ssh.forward_agent = true
         d.vm.provision :shell, path: "bootstrap.sh"
