@@ -7,11 +7,11 @@ Vagrant.configure(2) do |config|
   else
     config.vm.synced_folder ".", "/vagrant"
   end
+  config.ssh.forward_agent = true
   (0..2).each do |i|
       config.vm.define "serv-0#{i}" do |d|
         d.vm.box = "ubuntu/trusty64"
         d.vm.hostname = "serv-0#{i}"
-        d.ssh.forward_agent = true
         d.vm.provision :shell, path: "bootstrap.sh"
         d.vm.network "private_network", ip: "10.100.194.20#{i}"
         d.vm.provision :shell, inline: "PYTHONUNBUFFERED=1 ansible-playbook /vagrant/ansible/common.yml "
