@@ -8,3 +8,4 @@ Checking capabilities of Nomad as a cluster manager and scheduler [https://www.n
 Vagrant plugin installation:
 
 vagrant plugin install vagrant-cachier
+vagrant plugin install vagrant-vbguest
