@@ -14,6 +14,7 @@ Vagrant.configure(2) do |config|
         d.ssh.forward_agent = true
         d.vm.provision :shell, path: "bootstrap.sh"
         d.vm.network "private_network", ip: "10.100.194.20#{i}"
+        d.vm.provision :shell, inline: "PYTHONUNBUFFERED=1 ansible-playbook /vagrant/ansible/common.yml "
         d.vm.provider "virtualbox" do |v|
           v.memory = 1024
         end
