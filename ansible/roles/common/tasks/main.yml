@@ -4,6 +4,12 @@
     force: yes
   tags: [common]
 
+- name: GIT is present
+  apt:
+    name: git
+    force: yes
+  tags: [common]
+
 - name: Host is present
   lineinfile:
     dest: /etc/hosts
