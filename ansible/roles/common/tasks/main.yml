@@ -10,6 +10,12 @@
     force: yes
   tags: [common]
 
+- name: unzip is present
+  apt:
+    name: unzip
+    force: yes
+  tags: [common]
+
 - name: Host is present
   lineinfile:
     dest: /etc/hosts

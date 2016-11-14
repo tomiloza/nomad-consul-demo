@@ -1,11 +1,21 @@
 logs_dir: /data/consul/logs
 
+
 directories:
-  - /data/consul/data
-  - /data/consul/config
-  - "{{ logs_dir }}"
+
+
+consul_version: 0.7.1
+consul_archive: "consul_{{ consul_version }}_linux_amd64.zip"
+consul_download: "https://releases.hashicorp.com/consul/{{ consul_version }}/{{ consul_archive }}"
+consul_download_username: ""
+consul_download_password: ""
+consul_download_folder: /tmp
+consul_home: /usr/local/bin/consul
+consul_move_to: /usr/local/bin
+
+
+
 
 files: [
   { src: 'consul', dest: '/usr/local/bin/consul', mode: '0755' },
-  { src: 'ui', dest: '/data/consul', mode: '0644' }
   ]
