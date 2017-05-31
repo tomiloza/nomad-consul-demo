@@ -708,4 +708,337 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDO9+LHLhDkp628ysoeuC+kdkkn3JkdQ0kgUraHdH6U
 
 Ubuntu 16.04.2 LTS ubuntu-xenial ttyS0
 
-ubuntu-xenial login: 
+ubuntu-xenial login: [21218.047513] Memory cgroup out of memory: Kill process 24075 (nomad) score 2136 or sacrifice child
+[21218.200221] Killed process 24086 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6816kB
+[21237.216153] Memory cgroup out of memory: Kill process 24105 (nomad) score 2103 or sacrifice child
+[21237.363829] Killed process 24116 (pip) total-vm:43380kB, anon-rss:7472kB, file-rss:6972kB
+[21255.666121] Memory cgroup out of memory: Kill process 24135 (nomad) score 1918 or sacrifice child
+[21255.877036] Killed process 24146 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6940kB
+[21274.434427] Memory cgroup out of memory: Kill process 24156 (nomad) score 1888 or sacrifice child
+[21274.549282] Killed process 24176 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:7012kB
+[21290.700440] Memory cgroup out of memory: Kill process 24196 (nomad) score 2052 or sacrifice child
+[21290.857910] Killed process 24207 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6160kB
+[21306.994639] Memory cgroup out of memory: Kill process 24225 (nomad) score 2130 or sacrifice child
+[21307.211826] Killed process 24236 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6968kB
+[21325.755182] Memory cgroup out of memory: Kill process 24257 (nomad) score 2103 or sacrifice child
+[21326.001943] Killed process 24268 (pip) total-vm:49504kB, anon-rss:9352kB, file-rss:6864kB
+[21334.751277] Memory cgroup out of memory: Kill process 24287 (nomad) score 2094 or sacrifice child
+[21334.922156] Killed process 24298 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6172kB
+[21353.485308] Memory cgroup out of memory: Kill process 24317 (nomad) score 2133 or sacrifice child
+[21353.674117] Killed process 24328 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6988kB
+[21369.816676] Memory cgroup out of memory: Kill process 24350 (nomad) score 2092 or sacrifice child
+[21370.022803] Killed process 24361 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:6952kB
+[21386.319055] Memory cgroup out of memory: Kill process 24382 (nomad) score 2044 or sacrifice child
+[21386.440958] Killed process 24393 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6312kB
+[21395.225799] Memory cgroup out of memory: Kill process 24412 (nomad) score 2088 or sacrifice child
+[21395.477952] Killed process 24423 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:7112kB
+[21413.906595] Memory cgroup out of memory: Kill process 24446 (nomad) score 2102 or sacrifice child
+[21414.052238] Killed process 24457 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6816kB
+[21432.866589] Memory cgroup out of memory: Kill process 24478 (nomad) score 2126 or sacrifice child
+[21433.049294] Killed process 24489 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6912kB
+[21450.962283] Memory cgroup out of memory: Kill process 24511 (nomad) score 2260 or sacrifice child
+[21451.154269] Killed process 24522 (pip) total-vm:26444kB, anon-rss:5528kB, file-rss:4468kB
+[21455.829952] Memory cgroup out of memory: Kill process 24539 (nomad) score 1953 or sacrifice child
+[21455.974690] Killed process 24550 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:7024kB
+[21474.603940] Memory cgroup out of memory: Kill process 24570 (nomad) score 2078 or sacrifice child
+[21474.810449] Killed process 24581 (pip) total-vm:37004kB, anon-rss:7512kB, file-rss:6208kB
+[21491.153435] Memory cgroup out of memory: Kill process 24601 (nomad) score 2044 or sacrifice child
+[21491.416568] Killed process 24612 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6828kB
+[21509.593489] Memory cgroup out of memory: Kill process 24633 (nomad) score 2142 or sacrifice child
+[21509.605883] Killed process 24644 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:6952kB
+[21516.207066] Memory cgroup out of memory: Kill process 24665 (nomad) score 1951 or sacrifice child
+[21516.291161] Killed process 24676 (pip) total-vm:49504kB, anon-rss:9348kB, file-rss:6952kB
+[21533.975852] Memory cgroup out of memory: Kill process 24697 (nomad) score 2137 or sacrifice child
+[21534.115244] Killed process 24710 (pip) total-vm:49648kB, anon-rss:9552kB, file-rss:6928kB
+[21549.531069] Memory cgroup out of memory: Kill process 24727 (nomad) score 1958 or sacrifice child
+[21549.590247] Killed process 24738 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7004kB
+[21566.142544] Memory cgroup out of memory: Kill process 24759 (nomad) score 1878 or sacrifice child
+[21566.277227] Killed process 24770 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:6952kB
+[21576.553982] Memory cgroup out of memory: Kill process 24790 (nomad) score 2066 or sacrifice child
+[21576.670490] Killed process 24801 (pip) total-vm:49648kB, anon-rss:9552kB, file-rss:6968kB
+[21594.928106] Memory cgroup out of memory: Kill process 24822 (nomad) score 2068 or sacrifice child
+[21595.081908] Killed process 24833 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6844kB
+[21610.425185] Memory cgroup out of memory: Kill process 24853 (nomad) score 2160 or sacrifice child
+[21610.621158] Killed process 24864 (pip) total-vm:49504kB, anon-rss:9544kB, file-rss:6912kB
+[21627.202096] Memory cgroup out of memory: Kill process 24886 (nomad) score 2084 or sacrifice child
+[21627.349837] Killed process 24897 (pip) total-vm:37004kB, anon-rss:7252kB, file-rss:6148kB
+[21636.867754] Memory cgroup out of memory: Kill process 24915 (nomad) score 2114 or sacrifice child
+[21636.955184] Killed process 24926 (pip) total-vm:43384kB, anon-rss:7468kB, file-rss:6888kB
+[21653.451930] Memory cgroup out of memory: Kill process 24946 (nomad) score 2110 or sacrifice child
+[21653.643550] Killed process 24957 (pip) total-vm:49648kB, anon-rss:9556kB, file-rss:7024kB
+[21670.144772] Memory cgroup out of memory: Kill process 24976 (nomad) score 1954 or sacrifice child
+[21670.365698] Killed process 24987 (pip) total-vm:49248kB, anon-rss:9348kB, file-rss:6968kB
+[21686.848454] Memory cgroup out of memory: Kill process 25007 (nomad) score 2063 or sacrifice child
+[21687.197592] Killed process 25018 (pip) total-vm:49248kB, anon-rss:9348kB, file-rss:7012kB
+[21697.196783] Memory cgroup out of memory: Kill process 25039 (nomad) score 2106 or sacrifice child
+[21697.397980] Killed process 25050 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6260kB
+[21716.113482] Memory cgroup out of memory: Kill process 25069 (nomad) score 2066 or sacrifice child
+[21716.332947] Killed process 25080 (pip) total-vm:49248kB, anon-rss:9348kB, file-rss:7096kB
+[21732.996867] Memory cgroup out of memory: Kill process 25100 (nomad) score 2095 or sacrifice child
+[21733.244337] Killed process 25111 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7112kB
+[21749.166405] Memory cgroup out of memory: Kill process 25130 (nomad) score 2052 or sacrifice child
+[21749.335259] Killed process 25141 (pip) total-vm:49648kB, anon-rss:9552kB, file-rss:6940kB
+[21757.589565] Memory cgroup out of memory: Kill process 25162 (nomad) score 1882 or sacrifice child
+[21757.757632] Killed process 25173 (pip) total-vm:49248kB, anon-rss:9348kB, file-rss:6912kB
+[21773.713288] Memory cgroup out of memory: Kill process 25194 (nomad) score 2062 or sacrifice child
+[21773.843917] Killed process 25205 (pip) total-vm:37004kB, anon-rss:7512kB, file-rss:6148kB
+[21792.612348] Memory cgroup out of memory: Kill process 25223 (nomad) score 2289 or sacrifice child
+[21792.632191] Killed process 25234 (pip) total-vm:36868kB, anon-rss:7248kB, file-rss:6388kB
+[21808.411464] Memory cgroup out of memory: Kill process 25254 (nomad) score 2089 or sacrifice child
+[21808.613659] Killed process 25265 (pip) total-vm:49508kB, anon-rss:9556kB, file-rss:7112kB
+[21818.067027] Memory cgroup out of memory: Kill process 25286 (nomad) score 2118 or sacrifice child
+[21818.253744] Killed process 25297 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:7012kB
+[21835.224055] Memory cgroup out of memory: Kill process 25320 (nomad) score 2073 or sacrifice child
+[21835.341717] Killed process 25331 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:7112kB
+[21851.324696] Memory cgroup out of memory: Kill process 25350 (nomad) score 2051 or sacrifice child
+[21851.521949] Killed process 25361 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6752kB
+[21870.551334] Memory cgroup out of memory: Kill process 25382 (nomad) score 1930 or sacrifice child
+[21870.744395] Killed process 25393 (pip) total-vm:49504kB, anon-rss:9352kB, file-rss:7004kB
+[21878.548362] Memory cgroup out of memory: Kill process 25415 (nomad) score 2134 or sacrifice child
+[21878.677633] Killed process 25427 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:6912kB
+[21895.933757] Memory cgroup out of memory: Kill process 25448 (nomad) score 2060 or sacrifice child
+[21896.122244] Killed process 25459 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6816kB
+[21912.577489] Memory cgroup out of memory: Kill process 25479 (nomad) score 2175 or sacrifice child
+[21912.743891] Killed process 25490 (pip) total-vm:37004kB, anon-rss:7512kB, file-rss:6220kB
+[21929.732786] Memory cgroup out of memory: Kill process 25511 (nomad) score 2170 or sacrifice child
+[21930.011757] Killed process 25522 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6828kB
+[21938.976772] Memory cgroup out of memory: Kill process 25541 (nomad) score 1902 or sacrifice child
+[21939.237634] Killed process 25552 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:7096kB
+[21955.607398] Memory cgroup out of memory: Kill process 25572 (nomad) score 1894 or sacrifice child
+[21955.869797] Killed process 25583 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6952kB
+[21974.419965] Memory cgroup out of memory: Kill process 25605 (nomad) score 2058 or sacrifice child
+[21974.702432] Killed process 25616 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6312kB
+[21990.774247] Memory cgroup out of memory: Kill process 25642 (nomad) score 2030 or sacrifice child
+[21990.943544] Killed process 25653 (pip) total-vm:37004kB, anon-rss:7248kB, file-rss:6268kB
+[21999.622392] Memory cgroup out of memory: Kill process 25673 (nomad) score 2099 or sacrifice child
+[21999.850656] Killed process 25684 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6968kB
+[22015.592191] Memory cgroup out of memory: Kill process 25947 (nomad) score 2128 or sacrifice child
+[22015.790342] Killed process 25958 (pip) total-vm:49248kB, anon-rss:9356kB, file-rss:7200kB
+[22033.638919] Memory cgroup out of memory: Kill process 25983 (nomad) score 1897 or sacrifice child
+[22033.850422] Killed process 25994 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:7076kB
+[22050.792571] Memory cgroup out of memory: Kill process 26016 (nomad) score 1906 or sacrifice child
+[22051.011023] Killed process 26027 (pip) total-vm:49248kB, anon-rss:9108kB, file-rss:7004kB
+[22060.089054] Memory cgroup out of memory: Kill process 26065 (nomad) score 2114 or sacrifice child
+[22060.209979] Killed process 26076 (pip) total-vm:36868kB, anon-rss:7248kB, file-rss:6204kB
+[22075.436562] Memory cgroup out of memory: Kill process 26303 (nomad) score 1891 or sacrifice child
+[22075.492880] Killed process 26316 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7136kB
+[22092.255535] Memory cgroup out of memory: Kill process 26336 (nomad) score 1884 or sacrifice child
+[22092.489675] Killed process 26347 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:7024kB
+[22107.981426] Memory cgroup out of memory: Kill process 26366 (nomad) score 2108 or sacrifice child
+[22108.063102] Killed process 26377 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6884kB
+[22120.350252] Memory cgroup out of memory: Kill process 26397 (nomad) score 2074 or sacrifice child
+[22120.607485] Killed process 26408 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6880kB
+[22137.361184] Memory cgroup out of memory: Kill process 26428 (nomad) score 2046 or sacrifice child
+[22137.687553] Killed process 26439 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6828kB
+[22154.800387] Memory cgroup out of memory: Kill process 26458 (nomad) score 1918 or sacrifice child
+[22155.007599] Killed process 26469 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:7200kB
+[22172.894626] Memory cgroup out of memory: Kill process 26715 (nomad) score 2380 or sacrifice child
+[22173.231524] Killed process 26726 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6836kB
+[22180.967505] Memory cgroup out of memory: Kill process 26755 (nomad) score 2150 or sacrifice child
+[22181.121743] Killed process 26766 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6948kB
+[22198.530431] Memory cgroup out of memory: Kill process 26784 (nomad) score 1826 or sacrifice child
+[22198.593429] Killed process 26795 (pip) total-vm:49248kB, anon-rss:9352kB, file-rss:7136kB
+[22215.917368] Memory cgroup out of memory: Kill process 26814 (nomad) score 2055 or sacrifice child
+[22216.127590] Killed process 26825 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6856kB
+[22233.428956] Memory cgroup out of memory: Kill process 26846 (nomad) score 2109 or sacrifice child
+[22233.569775] Killed process 26857 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6880kB
+[22241.444454] Memory cgroup out of memory: Kill process 26884 (nomad) score 1844 or sacrifice child
+[22241.628527] Killed process 26895 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:6976kB
+[22260.608940] Memory cgroup out of memory: Kill process 26921 (nomad) score 2118 or sacrifice child
+[22260.879625] Killed process 26933 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6836kB
+[22279.556346] Memory cgroup out of memory: Kill process 26962 (nomad) score 1885 or sacrifice child
+[22279.612265] Killed process 26973 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6976kB
+[22295.319786] Memory cgroup out of memory: Kill process 26992 (nomad) score 2001 or sacrifice child
+[22295.488530] Killed process 27003 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:7076kB
+[22295.687511] Memory cgroup out of memory: Kill process 26992 (nomad) score 2035 or sacrifice child
+[22295.967983] Killed process 26992 (nomad) total-vm:453480kB, anon-rss:6276kB, file-rss:15008kB
+[22301.970138] Memory cgroup out of memory: Kill process 27023 (nomad) score 2047 or sacrifice child
+[22302.168949] Killed process 27034 (pip) total-vm:49648kB, anon-rss:9556kB, file-rss:7072kB
+[22317.456978] Memory cgroup out of memory: Kill process 27053 (nomad) score 1831 or sacrifice child
+[22317.595126] Killed process 27064 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6916kB
+[22334.584094] Memory cgroup out of memory: Kill process 27084 (nomad) score 2121 or sacrifice child
+[22334.790252] Killed process 27095 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7080kB
+[22351.360545] Memory cgroup out of memory: Kill process 27119 (nomad) score 2057 or sacrifice child
+[22351.677953] Killed process 27130 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6928kB
+[22362.416744] Memory cgroup out of memory: Kill process 27155 (nomad) score 2081 or sacrifice child
+[22362.715534] Killed process 27166 (pip) total-vm:49760kB, anon-rss:9552kB, file-rss:7200kB
+[22379.276446] Memory cgroup out of memory: Kill process 27187 (nomad) score 2376 or sacrifice child
+[22379.504691] Killed process 27198 (pip) total-vm:37004kB, anon-rss:7516kB, file-rss:6224kB
+[22395.372268] Memory cgroup out of memory: Kill process 27221 (nomad) score 1931 or sacrifice child
+[22395.670320] Killed process 27232 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6980kB
+[22414.518656] Memory cgroup out of memory: Kill process 27263 (nomad) score 2105 or sacrifice child
+[22414.750031] Killed process 27274 (pip) total-vm:36868kB, anon-rss:7248kB, file-rss:6312kB
+[22423.089597] Memory cgroup out of memory: Kill process 27294 (nomad) score 2050 or sacrifice child
+[22423.303493] Killed process 27305 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6924kB
+[22439.064582] Memory cgroup out of memory: Kill process 27569 (nomad) score 1930 or sacrifice child
+[22439.301296] Killed process 27581 (pip) total-vm:49760kB, anon-rss:9556kB, file-rss:7080kB
+[22455.306480] Memory cgroup out of memory: Kill process 27607 (nomad) score 2293 or sacrifice child
+[22455.408310] Killed process 27618 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6948kB
+[22455.414171] Memory cgroup out of memory: Kill process 27607 (nomad) score 2293 or sacrifice child
+[22455.586859] Killed process 27607 (nomad) total-vm:338800kB, anon-rss:8584kB, file-rss:15428kB
+[22472.087150] Memory cgroup out of memory: Kill process 27648 (nomad) score 2082 or sacrifice child
+[22472.128510] Killed process 27659 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6796kB
+[22483.677720] Memory cgroup out of memory: Kill process 27678 (nomad) score 2262 or sacrifice child
+[22483.907723] Killed process 27689 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6772kB
+[22502.919978] Memory cgroup out of memory: Kill process 27708 (nomad) score 1970 or sacrifice child
+[22503.094044] Killed process 27721 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:6920kB
+[22520.470629] Memory cgroup out of memory: Kill process 27739 (nomad) score 2029 or sacrifice child
+[22520.652579] Killed process 27750 (pip) total-vm:49248kB, anon-rss:9356kB, file-rss:7200kB
+[22539.364400] Memory cgroup out of memory: Kill process 27787 (nomad) score 2153 or sacrifice child
+[22539.647763] Killed process 27798 (pip) total-vm:37004kB, anon-rss:7252kB, file-rss:6320kB
+[22544.207999] Memory cgroup out of memory: Kill process 27803 (nomad) score 2098 or sacrifice child
+[22544.548052] Killed process 27814 (pip) total-vm:36868kB, anon-rss:7248kB, file-rss:6372kB
+[22563.219933] Memory cgroup out of memory: Kill process 27835 (nomad) score 2076 or sacrifice child
+[22563.402838] Killed process 27846 (pip) total-vm:43380kB, anon-rss:7476kB, file-rss:6836kB
+[22582.364229] Memory cgroup out of memory: Kill process 27863 (nomad) score 1931 or sacrifice child
+[22582.508146] Killed process 27874 (pip) total-vm:49504kB, anon-rss:9352kB, file-rss:6916kB
+[22598.672351] Memory cgroup out of memory: Kill process 27913 (nomad) score 1863 or sacrifice child
+[22598.802819] Killed process 27925 (pip) total-vm:49504kB, anon-rss:9352kB, file-rss:6976kB
+[22604.892463] Memory cgroup out of memory: Kill process 27930 (nomad) score 1903 or sacrifice child
+[22605.072716] Killed process 27941 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6916kB
+[22622.860794] Memory cgroup out of memory: Kill process 27962 (nomad) score 1876 or sacrifice child
+[22623.107685] Killed process 27973 (pip) total-vm:49248kB, anon-rss:9352kB, file-rss:6920kB
+[22641.651320] Memory cgroup out of memory: Kill process 27992 (nomad) score 2122 or sacrifice child
+[22641.870964] Killed process 28003 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6856kB
+[22659.004443] Memory cgroup out of memory: Kill process 28036 (nomad) score 1915 or sacrifice child
+[22659.207244] Killed process 28047 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6920kB
+[22665.362719] Memory cgroup out of memory: Kill process 28054 (nomad) score 2148 or sacrifice child
+[22665.598436] Killed process 28065 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6372kB
+[22681.946533] Memory cgroup out of memory: Kill process 28084 (nomad) score 2110 or sacrifice child
+[22682.162679] Killed process 28095 (pip) total-vm:49648kB, anon-rss:9556kB, file-rss:6976kB
+[22699.951321] Memory cgroup out of memory: Kill process 28114 (nomad) score 2114 or sacrifice child
+[22700.185884] Killed process 28125 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6272kB
+[22715.511062] Memory cgroup out of memory: Kill process 28142 (nomad) score 2066 or sacrifice child
+[22715.697750] Killed process 28153 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7136kB
+[22725.925826] Memory cgroup out of memory: Kill process 28174 (nomad) score 2069 or sacrifice child
+[22726.137570] Killed process 28185 (pip) total-vm:43380kB, anon-rss:7476kB, file-rss:6856kB
+[22743.343834] Memory cgroup out of memory: Kill process 28204 (nomad) score 2120 or sacrifice child
+[22743.404797] Killed process 28215 (pip) total-vm:49248kB, anon-rss:9356kB, file-rss:7052kB
+[22760.775124] Memory cgroup out of memory: Kill process 28238 (nomad) score 2110 or sacrifice child
+[22760.888926] Killed process 28249 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7136kB
+[22779.887490] Memory cgroup out of memory: Kill process 28283 (nomad) score 2064 or sacrifice child
+[22780.102267] Killed process 28294 (pip) total-vm:49248kB, anon-rss:9356kB, file-rss:7004kB
+[22786.354653] Memory cgroup out of memory: Kill process 28300 (nomad) score 2069 or sacrifice child
+[22786.552016] Killed process 28311 (pip) total-vm:45584kB, anon-rss:7748kB, file-rss:6968kB
+[22804.097787] Memory cgroup out of memory: Kill process 28332 (nomad) score 2298 or sacrifice child
+[22804.230104] Killed process 28343 (pip) total-vm:43384kB, anon-rss:7468kB, file-rss:6828kB
+[22821.881335] Memory cgroup out of memory: Kill process 28373 (nomad) score 2077 or sacrifice child
+[22822.062444] Killed process 28384 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6928kB
+[22837.359666] Memory cgroup out of memory: Kill process 28428 (nomad) score 2123 or sacrifice child
+[22837.604949] Killed process 28441 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6880kB
+[22846.817060] Memory cgroup out of memory: Kill process 28449 (nomad) score 1992 or sacrifice child
+[22846.999387] Killed process 28461 (pip) total-vm:49504kB, anon-rss:9352kB, file-rss:7200kB
+[22862.286451] Memory cgroup out of memory: Kill process 28484 (nomad) score 2071 or sacrifice child
+[22862.548453] Killed process 28495 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6928kB
+[22880.153478] Memory cgroup out of memory: Kill process 28515 (nomad) score 2073 or sacrifice child
+[22880.347142] Killed process 28526 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6884kB
+[22896.153437] Memory cgroup out of memory: Kill process 28547 (nomad) score 2069 or sacrifice child
+[22896.268296] Killed process 28558 (pip) total-vm:49248kB, anon-rss:9360kB, file-rss:7008kB
+[22907.313510] Memory cgroup out of memory: Kill process 28580 (nomad) score 2183 or sacrifice child
+[22907.353800] Killed process 28591 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:6920kB
+[22924.787690] Memory cgroup out of memory: Kill process 28610 (nomad) score 2050 or sacrifice child
+[22924.982049] Killed process 28621 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6980kB
+[22942.952099] Memory cgroup out of memory: Kill process 28642 (nomad) score 2054 or sacrifice child
+[22943.094093] Killed process 28653 (pip) total-vm:43384kB, anon-rss:7568kB, file-rss:6888kB
+[22960.032331] Memory cgroup out of memory: Kill process 28693 (nomad) score 2025 or sacrifice child
+[22960.251353] Killed process 28704 (pip) total-vm:49248kB, anon-rss:9348kB, file-rss:7016kB
+[22967.541531] Memory cgroup out of memory: Kill process 28710 (nomad) score 1872 or sacrifice child
+[22967.737710] Killed process 28721 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:7008kB
+[22984.588780] Memory cgroup out of memory: Kill process 28743 (nomad) score 2057 or sacrifice child
+[22984.768787] Killed process 28754 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6856kB
+[23001.546521] Memory cgroup out of memory: Kill process 28774 (nomad) score 2005 or sacrifice child
+[23001.691724] Killed process 28785 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6884kB
+[23019.290794] Memory cgroup out of memory: Kill process 28825 (nomad) score 2128 or sacrifice child
+[23019.393146] Killed process 28836 (pip) total-vm:37004kB, anon-rss:7512kB, file-rss:6236kB
+[23028.059449] Memory cgroup out of memory: Kill process 28840 (nomad) score 2058 or sacrifice child
+[23028.237742] Killed process 28853 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7012kB
+[23047.312609] Memory cgroup out of memory: Kill process 28872 (nomad) score 2074 or sacrifice child
+[23047.481146] Killed process 28885 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6916kB
+[23066.129636] Memory cgroup out of memory: Kill process 28905 (nomad) score 2124 or sacrifice child
+[23066.268817] Killed process 28916 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6196kB
+[23082.146369] Memory cgroup out of memory: Kill process 28948 (nomad) score 2098 or sacrifice child
+[23082.327722] Killed process 28959 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6828kB
+[23088.542352] Memory cgroup out of memory: Kill process 28965 (nomad) score 2042 or sacrifice child
+[23088.642566] Killed process 28976 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6352kB
+[23106.581003] Memory cgroup out of memory: Kill process 28995 (nomad) score 2155 or sacrifice child
+[23106.767051] Killed process 29006 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6848kB
+[23124.162283] Memory cgroup out of memory: Kill process 29028 (nomad) score 2082 or sacrifice child
+[23124.314546] Killed process 29039 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6840kB
+[23142.350959] Memory cgroup out of memory: Kill process 29076 (nomad) score 2061 or sacrifice child
+[23142.510693] Killed process 29087 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7080kB
+[23148.880589] Memory cgroup out of memory: Kill process 29093 (nomad) score 2083 or sacrifice child
+[23149.061703] Killed process 29104 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6964kB
+[23164.788978] Memory cgroup out of memory: Kill process 29126 (nomad) score 2130 or sacrifice child
+[23164.957908] Killed process 29137 (pip) total-vm:36868kB, anon-rss:7248kB, file-rss:6312kB
+[23182.551539] Memory cgroup out of memory: Kill process 29155 (nomad) score 1998 or sacrifice child
+[23182.606460] Killed process 29166 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:7076kB
+[23198.715108] Memory cgroup out of memory: Kill process 29199 (nomad) score 1949 or sacrifice child
+[23198.912731] Killed process 29210 (pip) total-vm:49648kB, anon-rss:9556kB, file-rss:7052kB
+[23209.248203] Memory cgroup out of memory: Kill process 29216 (nomad) score 2076 or sacrifice child
+[23209.526630] Killed process 29227 (pip) total-vm:49504kB, anon-rss:9556kB, file-rss:7072kB
+[23226.274279] Memory cgroup out of memory: Kill process 29248 (nomad) score 1865 or sacrifice child
+[23226.489337] Killed process 29259 (pip) total-vm:49504kB, anon-rss:9352kB, file-rss:7052kB
+[23243.197518] Memory cgroup out of memory: Kill process 29280 (nomad) score 2124 or sacrifice child
+[23243.362880] Killed process 29291 (pip) total-vm:49504kB, anon-rss:9548kB, file-rss:7076kB
+[23261.754048] Memory cgroup out of memory: Kill process 29327 (nomad) score 1942 or sacrifice child
+[23261.947409] Killed process 29338 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7004kB
+[23269.921710] Memory cgroup out of memory: Kill process 29345 (nomad) score 2131 or sacrifice child
+[23270.082858] Killed process 29356 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6932kB
+[23288.293109] Memory cgroup out of memory: Kill process 29376 (nomad) score 2067 or sacrifice child
+[23288.467653] Killed process 29387 (pip) total-vm:49648kB, anon-rss:9556kB, file-rss:6964kB
+[23306.705675] Memory cgroup out of memory: Kill process 29409 (nomad) score 1913 or sacrifice child
+[23306.917809] Killed process 29420 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7024kB
+[23323.888120] Memory cgroup out of memory: Kill process 29456 (nomad) score 2142 or sacrifice child
+[23324.095736] Killed process 29467 (pip) total-vm:49248kB, anon-rss:9352kB, file-rss:7072kB
+[23330.355478] Memory cgroup out of memory: Kill process 29473 (nomad) score 2101 or sacrifice child
+[23330.551910] Killed process 29484 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6948kB
+[23346.320862] Memory cgroup out of memory: Kill process 29503 (nomad) score 2063 or sacrifice child
+[23346.438485] Killed process 29514 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6952kB
+[23365.147582] Memory cgroup out of memory: Kill process 29536 (nomad) score 2065 or sacrifice child
+[23365.327679] Killed process 29547 (pip) total-vm:43384kB, anon-rss:7468kB, file-rss:6892kB
+[23380.909846] Memory cgroup out of memory: Kill process 29582 (nomad) score 2113 or sacrifice child
+[23381.111749] Killed process 29593 (pip) total-vm:36868kB, anon-rss:7248kB, file-rss:6352kB
+[23390.817453] Memory cgroup out of memory: Kill process 29597 (nomad) score 2304 or sacrifice child
+[23391.116064] Killed process 29608 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6952kB
+[23409.254262] Memory cgroup out of memory: Kill process 29629 (nomad) score 2358 or sacrifice child
+[23409.597748] Killed process 29642 (pip) total-vm:43388kB, anon-rss:7472kB, file-rss:6928kB
+[23427.758396] Memory cgroup out of memory: Kill process 29662 (nomad) score 2165 or sacrifice child
+[23428.014832] Killed process 29673 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6316kB
+[23445.149774] Memory cgroup out of memory: Kill process 29704 (nomad) score 2101 or sacrifice child
+[23445.397341] Killed process 29715 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7004kB
+[23451.430134] Memory cgroup out of memory: Kill process 29721 (nomad) score 2070 or sacrifice child
+[23451.641962] Killed process 29732 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6796kB
+[23468.244794] Memory cgroup out of memory: Kill process 29753 (nomad) score 2087 or sacrifice child
+[23468.419247] Killed process 29764 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6772kB
+[23487.172108] Memory cgroup out of memory: Kill process 29785 (nomad) score 2167 or sacrifice child
+[23487.314516] Killed process 29796 (pip) total-vm:43388kB, anon-rss:7472kB, file-rss:6772kB
+[23506.168569] Memory cgroup out of memory: Kill process 29831 (nomad) score 2116 or sacrifice child
+[23506.341923] Killed process 29843 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:7012kB
+[23511.897527] Memory cgroup out of memory: Kill process 29848 (nomad) score 2085 or sacrifice child
+[23512.048798] Killed process 29859 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6856kB
+[23530.958694] Memory cgroup out of memory: Kill process 29882 (nomad) score 1871 or sacrifice child
+[23531.154084] Killed process 29893 (pip) total-vm:49248kB, anon-rss:9352kB, file-rss:6996kB
+[23548.164581] Memory cgroup out of memory: Kill process 29915 (nomad) score 2096 or sacrifice child
+[23548.330372] Killed process 29926 (pip) total-vm:43384kB, anon-rss:7476kB, file-rss:6836kB
+[23565.733101] Memory cgroup out of memory: Kill process 29960 (nomad) score 1989 or sacrifice child
+[23566.003403] Killed process 29971 (pip) total-vm:49248kB, anon-rss:9356kB, file-rss:6964kB
+[23572.462421] Memory cgroup out of memory: Kill process 29977 (nomad) score 2100 or sacrifice child
+[23572.742828] Killed process 29988 (pip) total-vm:36868kB, anon-rss:7252kB, file-rss:6184kB
+[23591.376303] Memory cgroup out of memory: Kill process 30011 (nomad) score 2147 or sacrifice child
+[23591.625386] Killed process 30022 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7008kB
+[23608.284128] Memory cgroup out of memory: Kill process 30045 (nomad) score 1900 or sacrifice child
+[23608.523170] Killed process 30056 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:6916kB
+[23626.941668] Memory cgroup out of memory: Kill process 30099 (nomad) score 2167 or sacrifice child
+[23627.144054] Killed process 30110 (pip) total-vm:49248kB, anon-rss:9356kB, file-rss:6976kB
+[23633.033528] Memory cgroup out of memory: Kill process 30121 (nomad) score 2250 or sacrifice child
+[23633.247758] Killed process 30132 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6880kB
+[23651.426070] Memory cgroup out of memory: Kill process 30157 (nomad) score 2087 or sacrifice child
+[23651.751962] Killed process 30168 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6856kB
+[23668.293839] Memory cgroup out of memory: Kill process 30191 (nomad) score 2107 or sacrifice child
+[23668.413198] Killed process 30202 (pip) total-vm:49504kB, anon-rss:9552kB, file-rss:7024kB
+[23686.053343] Memory cgroup out of memory: Kill process 30240 (nomad) score 2064 or sacrifice child
+[23686.235644] Killed process 30251 (pip) total-vm:43384kB, anon-rss:7472kB, file-rss:6928kB
+[23693.596996] Memory cgroup out of memory: Kill process 30255 (nomad) score 1887 or sacrifice child
+[23693.668356] Killed process 30266 (pip) total-vm:49248kB, anon-rss:9352kB, file-rss:6916kB
+[23709.476432] Memory cgroup out of memory: Kill process 30285 (nomad) score 2092 or sacrifice child
+[23709.724941] Killed process 30296 (pip) total-vm:49648kB, anon-rss:9556kB, file-rss:6976kB
