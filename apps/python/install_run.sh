@@ -1,2 +1,2 @@
-/usr/bin/pip install -r requirements.txt
-/usr/bin/python app.py 
+/usr/bin/pip install -r /local/requirements.txt
+/usr/bin/python /local/app.py

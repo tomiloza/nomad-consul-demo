@@ -16,7 +16,9 @@ job "python-app" {
       }
 
       config {
-        command = "install_run.sh"
+        command = "/bin/sh"
+        args = [
+          "/local/install_run.sh"]
       }
 
       artifact {
