@@ -3,5 +3,5 @@
   serial: 1
   roles:
     - common
-    - consul
+    - nomad
   become: true

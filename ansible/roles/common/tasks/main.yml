@@ -16,6 +16,24 @@
     force: yes
   tags: [common]
 
+- name: curl is present
+  apt:
+    name: curl
+    force: yes
+  tags: [common]
+
+- name: wget is present
+  apt:
+    name: wget
+    force: yes
+  tags: [common]
+
+- name: python-pip is present
+  apt:
+    name: python-pip
+    force: yes
+  tags: [common]
+
 - name: Host is present
   lineinfile:
     dest: /etc/hosts

@@ -9,7 +9,6 @@
     - "{{ logs_dir }}"
   tags: [consul]
 
-
 - name: check archive stat
   stat: path={{ consul_download_folder }}/{{ consul_archive }}
   register: consul_archive_stat
@@ -32,16 +31,8 @@
   when: consul_was_downloaded|changed
   tags: [consul]
 
-#- name: Files are copied
-#  copy:
-#    src: "{{ item.src }}"
-#    dest: "{{ item.dest }}"
-#    mode: "{{ item.mode }}"
-#  with_items: files
-#  tags: [consul]
-
 - name: Is running
-  shell: "nohup consul agent {{ consul_extra }} \
+  shell: "nohup consul agent -server -bootstrap -ui \
     -data-dir /data/consul/data \
     -config-dir /data/consul/config \
     -node={{ ansible_hostname }} \
@@ -50,7 +41,3 @@
     >{{ logs_dir }}/consul.log 2>&1 &"
   tags: [consul]
 
-- name: Has joined
-  shell: consul join {{ consul_server_ip }}
-  when: consul_server_ip is defined
-  tags: [consul]

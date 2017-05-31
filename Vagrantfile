@@ -7,25 +7,28 @@ Vagrant.configure(2) do |config|
   else
     config.vm.synced_folder ".", "/vagrant"
   end
+  config.vm.box = "ubuntu/xenial64" # 16.04 LTS
+  config.vm.hostname = "nomad-consul"
+  config.vm.provision "docker" # Just install it
+  config.vm.network "private_network", ip: "10.100.194.200"
+  config.vm.provision :shell, path: "bootstrap.sh"
+  config.vm.provision :shell, inline: "PYTHONUNBUFFERED=1 ansible-playbook /vagrant/ansible/nomad-consul.yml "
   config.ssh.forward_agent = true
-  (0..2).each do |i|
-      config.vm.define "serv-0#{i}" do |d|
-        d.vm.box = "ubuntu/trusty64"
-        d.vm.hostname = "serv-0#{i}"
-        d.vm.provision :shell, path: "bootstrap.sh"
-        d.vm.network "private_network", ip: "10.100.194.20#{i}"
-        d.vm.provision :shell, inline: "PYTHONUNBUFFERED=1 ansible-playbook /vagrant/ansible/common.yml "
-        d.vm.provider "virtualbox" do |v|
-          v.memory = 1024
-        end
-      end
-   end
-  if Vagrant.has_plugin?("vagrant-cachier")
-    config.cache.scope = :box
+
+  # Increase memory for Parallels Desktop
+  config.vm.provider "parallels" do |p, o|
+    p.memory = "2054"
   end
-  if Vagrant.has_plugin?("vagrant-vbguest")
-    config.vbguest.auto_update = false
-    config.vbguest.no_install = true
-    config.vbguest.no_remote = true
+
+  # Increase memory for Virtualbox
+  config.vm.provider "virtualbox" do |vb|
+        vb.memory = "2054"
+  end
+
+  # Increase memory for VMware
+  ["vmware_fusion", "vmware_workstation"].each do |p|
+    config.vm.provider p do |v|
+      v.vmx["memsize"] = "2054"
+    end
   end
 end

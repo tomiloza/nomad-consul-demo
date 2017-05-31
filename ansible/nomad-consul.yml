@@ -4,4 +4,5 @@
   roles:
     - common
     - consul
+    - nomad
   become: true

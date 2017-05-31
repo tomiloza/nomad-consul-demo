@@ -1,0 +1,10 @@
+logs_dir: /data/nomad/logs
+
+nomad_version: 0.5.6
+nomad_archive: "nomad_{{ nomad_version }}_linux_amd64.zip"
+nomad_download: "https://releases.hashicorp.com/nomad/{{ nomad_version }}/{{ nomad_archive }}"
+nomad_download_username: ""
+nomad_download_password: ""
+nomad_download_folder: /tmp
+nomad_home: /usr/local/bin/nomad
+nomad_move_to: /usr/local/bin

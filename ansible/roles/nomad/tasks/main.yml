@@ -1,0 +1,37 @@
+
+- name: create nomad directory
+  file: >
+    state=directory
+    path={{ item }}
+  with_items:
+    - /data/nomad/data
+    - /data/nomad/config
+    - "{{ logs_dir }}"
+  tags: [nomad]
+
+- name: check archive stat
+  stat: path={{ nomad_download_folder }}/{{ nomad_archive }}
+  register: nomad_archive_stat
+
+- name: download nomad
+  get_url: >
+    url={{nomad_download}}
+    dest={{nomad_download_folder}}
+    url_username={{ nomad_download_username }}
+    url_password={{ nomad_download_password }}
+  register: nomad_was_downloaded
+  when: nomad_archive_stat.stat.exists == False
+  tags: [nomad]
+
+- name: copy and unpack
+  unarchive: >
+    src={{ nomad_download_folder }}/{{ nomad_archive }}
+    dest={{ nomad_move_to }}
+    remote_src=yes
+  when: nomad_was_downloaded|changed
+  tags: [nomad]
+
+- name: Is running
+  shell: "nohup nomad agent -dev
+    >{{ logs_dir }}/nomad.log 2>&1 &"
+  tags: [nomad]

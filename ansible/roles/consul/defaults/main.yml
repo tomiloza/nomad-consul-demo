@@ -1,10 +1,6 @@
 logs_dir: /data/consul/logs
 
-
-directories:
-
-
-consul_version: 0.7.1
+consul_version: 0.8.3
 consul_archive: "consul_{{ consul_version }}_linux_amd64.zip"
 consul_download: "https://releases.hashicorp.com/consul/{{ consul_version }}/{{ consul_archive }}"
 consul_download_username: ""
@@ -12,8 +8,6 @@ consul_download_password: ""
 consul_download_folder: /tmp
 consul_home: /usr/local/bin/consul
 consul_move_to: /usr/local/bin
-
-
 
 
 files: [
