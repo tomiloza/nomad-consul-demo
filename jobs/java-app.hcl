@@ -38,7 +38,7 @@ job "java-app" {
 
         check {
           type = "http"
-          port = "8081"
+          port = "check"
           path = "/ping"
           interval = "10s"
           timeout = "2s"
@@ -46,7 +46,7 @@ job "java-app" {
       }
 
       resources {
-        cpu = 500
+        cpu = 100
         memory = 256
 
         network {
@@ -54,6 +54,10 @@ job "java-app" {
 
           port "http" {
             static = 8080
+          }
+
+          port "check" {
+            static = 8081
           }
         }
       }
