@@ -26,7 +26,12 @@ job "python-app" {
       }
 
       service {
+        name = "python-app"
         port = "http"
+
+        tags = [
+          "python",
+          "app"]
 
         check {
           type = "http"
