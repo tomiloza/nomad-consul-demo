@@ -49,7 +49,7 @@ job "python-app" {
           mbits = 5
 
           port "http" {
-            static = 8080
+            static = 9080
           }
         }
       }
