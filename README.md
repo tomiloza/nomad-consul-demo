@@ -9,7 +9,6 @@ Necessary docker and java drivers which are used for the Nomad jobs are also pre
 - Vagrant >= 1.9.1
 
 ### Setup:
-
 ```
 # cd to project root directory
 cd nomad-consul-demo
@@ -27,4 +26,4 @@ Currently the demo vagrant box contains these directories:
 
 - ```ansible```, this directory contains the ansbile roles which are used for the pre-provisioning of the VM 
 - ```apps```, contains the demo applications. Java and Python hello world apps 
-- ```jobs```, contains the nomad python,java and docker jobs. The jobs definitions are written in the [hcl](https://github.com/hashicorp/hcl) language.
+- ```jobs```, contains the python, java and docker nomad job definitions. The jobs definitions are written in the [hcl](https://github.com/hashicorp/hcl) language.
