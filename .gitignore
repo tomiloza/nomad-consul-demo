@@ -70,3 +70,4 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 
 /apps/java/java-app/target/
+/ubuntu-xenial-16.04-cloudimg-console.log
