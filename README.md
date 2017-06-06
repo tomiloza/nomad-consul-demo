@@ -1,6 +1,6 @@
 # nomad-consul-demo
 
-Vagrant box with pre-provisioned [consul](https://www.consul.io/"Consul Homepage") and [nomad](https://www.nomadproject.io/ "Nomad Homepage").
+Vagrant box with pre-provisioned [consul](https://www.consul.io/ "Consul Homepage") and [nomad](https://www.nomadproject.io/ "Nomad Homepage").
 
 Necessary docker and java drivers which are used for the Nomad jobs are also pre-installed. 
 
@@ -8,7 +8,7 @@ Necessary docker and java drivers which are used for the Nomad jobs are also pre
 - VirtualBox >= 5.1.18
 - Vagrant >= 1.9.1
 
-###Setup:
+### Setup:
 
 ```
 # cd to project root directory
@@ -21,7 +21,7 @@ vagrant up
 vagrant ssh
 ```
 
-##Project structure
+## Project structure
 
 Currently the demo vagrant box contains these directories:
 
