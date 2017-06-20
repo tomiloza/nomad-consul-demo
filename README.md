@@ -13,6 +13,7 @@ Necessary docker and java drivers which are used for the Nomad jobs are also pre
 # cd to project root directory
 cd nomad-consul-demo
 vagrant up
+vagrant provision
 ```
 
 ### SSH into a virtual machine

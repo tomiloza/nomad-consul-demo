@@ -4,9 +4,18 @@
     state=directory
     path={{ item }}
   with_items:
-    - /data/nomad/data
-    - /data/nomad/config
+    - "{{ alloc_data_dir }}"
+    - "{{ config_dir }}"
     - "{{ logs_dir }}"
+  tags: [nomad]
+
+- name : Copy nomad configuration file
+  copy:
+    src: "{{ config_file }}"
+    dest: "{{ config_dir }}"
+    owner: root
+    group: root
+    mode: 0644
   tags: [nomad]
 
 - name: check archive stat
@@ -31,7 +40,28 @@
   when: nomad_was_downloaded|changed
   tags: [nomad]
 
-- name: Is running
-  shell: "nohup nomad agent -dev
+- name: Start nomad
+  shell: "nohup nomad agent -config={{ config_dir }}/{{ config_file }}
     >{{ logs_dir }}/nomad.log 2>&1 &"
   tags: [nomad]
+
+- name: Check if Nomad is running
+  shell: ps aux | grep "nomad agent" | grep -v grep
+  ignore_errors: yes
+  changed_when: false
+  register: service_nomad_status
+  tags: [nomad]
+
+- name: Report status of nomad
+  fail:
+    msg: |
+      Nomad is not running.
+      Return code from `grep`:
+      {{ service_nomad_status.rc }}
+  when: service_nomad_status.rc != 0
+  tags: [nomad]
+
+- name: Start the apps
+  command: /vagrant/jobs/start_all_jobs.sh
+  tags: [nomad]
+

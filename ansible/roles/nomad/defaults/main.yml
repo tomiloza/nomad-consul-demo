@@ -1,4 +1,7 @@
 logs_dir: /data/nomad/logs
+config_dir: /data/nomad/config
+alloc_data_dir: /data/nomad/data
+config_file: server_client.conf
 
 nomad_version: 0.5.6
 nomad_archive: "nomad_{{ nomad_version }}_linux_amd64.zip"
