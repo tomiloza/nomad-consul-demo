@@ -41,7 +41,7 @@
   tags: [nomad]
 
 - name: Start nomad
-  shell: "nohup nomad agent -config={{ config_dir }}/{{ config_file }}
+  shell: "nohup nomad agent -dev -config={{ config_dir }}/{{ config_file }}
     >{{ logs_dir }}/nomad.log 2>&1 &"
   tags: [nomad]
 
@@ -60,6 +60,9 @@
       {{ service_nomad_status.rc }}
   when: service_nomad_status.rc != 0
   tags: [nomad]
+
+- pause:
+    seconds: 10
 
 - name: Start the apps
   command: /vagrant/jobs/start_all_jobs.sh

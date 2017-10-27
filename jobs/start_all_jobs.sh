@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export NOMAD_ADDR=
+
 echo "Starting hashi-ui"
 nomad run /vagrant/jobs/hashi-ui.hcl
 echo "Starting docker-app"

@@ -32,7 +32,7 @@
   tags: [consul]
 
 - name: Is running
-  shell: "nohup consul agent -server -bootstrap -ui \
+  shell: "nohup consul agent -dev -ui \
     -data-dir /data/consul/data \
     -config-dir /data/consul/config \
     -node={{ ansible_hostname }} \
